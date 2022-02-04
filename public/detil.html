@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>McEasy - Add New Customer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+
+</head>
+
+
+<body>
+
+
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center" >
+          <img src="assets/img/mceasy.png" alt="">
+          
+        </a>
+       
+      </div>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-house-door"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+
+      <li class="nav-heading">MAIN MENU</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-graph-up-arrow"></i>
+          <span>Analytics</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " href="dashboard.html">
+          <i class="bi bi-people-fill"></i>
+          <span>Customer</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-tag"></i>
+          <span>Product</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-cart"></i>
+          <span>Order</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-file-earmark-bar-graph"></i>
+          <span>Report</span>
+        </a>
+      </li>
+
+
+      <li class="nav-heading">HELP</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-gear"></i>
+          <span>Settings</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#">
+          <i class="bi bi-headset"></i>
+          <span>Support</span>
+        </a>
+      </li>
+
+    </ul>
+
+  </aside>
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Add New Customer</h1>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a >Fill the form to add new customers.</a></li>        
+            </ol>
+          </div>
+          <div class="col" style="padding-left: 650px;" >
+                <ol class="nav-item dropdown pe-3"  >
+                  <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown" >
+                    <i class="bi bi-bell" style="color:white;" ></i>
+                    <span class="badge bg-primary badge-number">4</span>
+                  
+                    <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                    <span class="d-none d-md-block dropdown-toggle ps-2" style="color:white;">Nabila</span>
+                  </a>
+
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                    <li class="dropdown-header">
+                      <h6>Nabila</h6>
+                      <span>Web Designer</span>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item d-flex align-items-center" href="#">
+                        <i class="bi bi-person"></i>
+                        <span>My Profile</span>
+                      </a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item d-flex align-items-center" href="#">
+                        <i class="bi bi-gear"></i>
+                        <span>Account Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item d-flex align-items-center" href="#">
+                        <i class="bi bi-question-circle"></i>
+                        <span>Need Help?</span>
+                      </a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item d-flex align-items-center" href="index.html">
+                        <i class="bi bi-box-arrow-right"></i>
+                        <span>Sign Out</span>
+                      </a>
+                    </li>
+
+                  </ul>
+                </ol>
+                </div>
+      </div>
+    </div>
+    </div>
+
+    <section class="section dashboard">
+      
+        <div class="col-lg-8">
+                     
+            <div class="card recent-sales overflow-auto" style="height: 750px; width: 1100px;" >
+              <div class="card-body" >
+                <h5 class="card-title" style="color:#f95f5f; " ><b>Customers</b> <span style="color: #292560;"> 〉 <b>Add New Customer</b></span> </h5>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        
+
+                        
+                        <div class="text-center">
+                          <div>
+                            <div>
+                              <img id="frame" src="" class="img-fluid" style="width: 150px; height: 200px;" />
+                            </div>
+                            <br>
+                            <div class="mb-5" >                             
+                                <input class="btn btn-secondary" type="file" id="formFile" onchange="preview()" style="background-color: #f4f4f4; border-color: #f4f4f4; color: #474242;">                              
+                            </div>                                                   
+                            <script>
+                                function preview() {
+                                    frame.src = URL.createObjectURL(event.target.files[0]);
+                                }
+                                function clearImage() {
+                                    document.getElementById('formFile').value = null;
+                                    frame.src = "";
+                                }
+                            </script>
+                          </div>
+                          <div >
+                            <button onclick="clearImage()" type="reset" class="btn btn-secondary" style="width: 340px; background-color: #f4f4f4; border-color: #f4f4f4; color: #474242;">Remove</button>
+                          </div>                          
+                         </div>
+                      </div>
+                      <div class="col">
+
+                        <form class="row g-3 needs-validation"  novalidate>
+                          <div class="col-12">
+                            <label for="validationCustom01" class="form-label">Full Name</label>
+                            <input type="text" class="form-control"id="validationCustom01"  placeholder="Enter Full Name" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <label for="inputNanme4" class="form-label">Gender</label>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                  Male
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                  Female
+                                </label>
+                              </div>
+                             </div>
+                            </div>
+                          </div>
+                        
+                          <div class="col-12">
+                            <label for="inputDate" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control">
+                          </div>
+
+                          <div class="col-12">
+                            <label class="col-sm-2 col-form-label">Identity Type</label>                            
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>KTP/SIM/OTHER</option>
+                              <option value="1">KTP</option>
+                              <option value="2">SIM</option>
+                              <option value="3">OTHER</option>
+                            </select>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="inputAddress" class="form-label">Identity Number</label>
+                            <input type="text" class="form-control" id="inputIdentifyNumber" placeholder="Enter Identity Number" required>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email" required>
+                          </div>
+
+                          
+                          <div class="col-12">
+                            <label class="form-label">Phone Number</label>
+                            <div class="input-group mb-3">
+                              <span class="input-group-text" id="basic-addon1">+62</span>
+                              <input type="text" class="form-control" placeholder="Enter Phone Number " aria-label="number" aria-describedby="basic-addon1">
+                            </div>
+                          </div>
+
+
+                                
+                       
+                          </div>
+                        </form>
+                        <div class="col">
+                          <form class="row g-3">
+                            
+                              <div class="col-12">
+                                <label for="inputAddress" class="form-label">Address</label>
+                                <textarea type="text" class="form-control" id="inputAddress" placeholder="Enter Address" required></textarea>
+                               </div>
+                               <div class="col-12">
+                                <label for="inputAddress" class="form-label">Detail Address</label>
+                                <textarea type="text" class="form-control" id="inputDetailAddress"  placeholder="Enter details address: (Street,Block,Number,etc)" required></textarea>
+                               </div>
+                               
+                               <div class="container-fluid">
+                                <div class="map-responsive">
+                                  <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                               </div>
+                               
+                               <div class="col-12">
+                                <label for="inputAddress" class="form-label">Instagram</label>
+                                <input type="text" class="form-control" id="inputInstagram"  placeholder="Enter Instagram" required>
+                               </div>
+
+
+                               <button type="submit" class="btn btn-primary" style="background-color: #f95f5f; border-color: #f95f5f; width: 200px; margin-left: 130px; margin-top: 100px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Add Customer</button>
+                          
+                          </form>
+                   
+                       </div>
+                      
+                        
+                    </div>
+                  </div>
+           </div>
+              
+           <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-signin">
+                        <div class="text-center mb-4">
+                         
+                          <h1 class="h3 mb-3 font-weight-normal" style="color: black;">Add Customer</h1>
+                          <center><img src="assets/img/check.png" style="height: 100px; height: 100px; "></center>
+                          <p style="margin:20px; color: black;">Add New Customer Complete</p>
+                        </div>
+                  
+                        
+                        <center>
+                           <a  href="dashboard.html" style="color: white; text-decoration:none;"><button  class="btn btn-lg btn-primary btn-block"  style="font-size: 20px; margin-bottom: 10px; background-color: #f95f5f; border-color: #f95f5f;" >Ok</a> </button>
+                        </center>
+                      </form>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
