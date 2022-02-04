@@ -8,8 +8,13 @@ Aplikasi ini dibuat untuk tahap Submission Test di McEasy PT. Otto Menara Global
 - Sortir (ID,Nama, Alamat,Jenis Kelamin, Nomor Telepon)
 - Pop Up Complete
 
+# Deployment
+Menginisialisasi aplikasi ini dapat menjalan commend dibawah ini.
+1. yarn install
+2. yarn serve
+
 # Tech Stack
 Teknologi yang dipakai pada aplikasi ini.
-- Client : VueJS, Google Map
-- Server : Node
-- Misc : VS Code, Chrome
+- **Client** : VueJS, Google Map
+- **Server** : Node
+- **Misc** : VS Code, Chrome
